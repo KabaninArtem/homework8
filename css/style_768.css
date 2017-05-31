@@ -1,0 +1,212 @@
+@media  (max-width: 995px)  {
+	.background__opacity-block {
+		top: 245px;
+	}
+	.background__mountain {
+		height: 800px;
+	}
+	.background__gradient {
+		height: 341px;
+	}
+	.background__blur {
+		background: url(../img/blur_768.jpg) top center no-repeat;
+		height: 200px;
+	}
+	.content {
+		width: 768px;
+		top: 0;
+		left: 50%;
+		margin-left: -384px;
+	}
+	.header {
+		height: 732px;
+	}
+	.menu {
+		clear: both;
+		float: left;
+		margin-top: 29px;
+	}
+	.sliders {
+		margin-top: 130px;
+	}
+	.sliders__info-block {
+		width: 317px;
+		height: 190px;
+		overflow: hidden;
+		padding-left: 25px;
+    padding-top: 98px;
+	}
+	.sliders__info-block h2 {
+		font-size: 48px;
+	}
+	.sliders__info-block h3 {
+    margin-top: 8px;
+    font-size: 24px;
+  }
+	.sliders__info-block p {
+		width: 273px;
+		height: 141px;
+		margin-top: 8px;
+		font-size: 17px;
+		line-height: 26px;
+	}
+	.sliders__iphone-block {
+    top: -22px;
+		right: 62px;
+	}
+	.nav {
+		margin-top: 41px;
+		margin-right: 159px;
+	}
+	.main .about-company {
+		height: 344px;
+	}
+	.main .about-company__more {
+		margin-top: 78px;
+		width: 160px;
+	}
+	.main .about-company__more:nth-child(2) {
+    margin-left: 92px;
+}
+	.main .about-company__more:last-child {
+		margin-right: 31px;
+	}
+	.main .about-company__more .sprites {
+	.	top: 0px;
+		left: 11px;
+	}
+	.main .about-company__more:nth-child(2) .sprites {
+		width: 29px;
+    top: 0px;
+    left: -52px;
+    background: url(../img/more__sprites.png) 0 0 no-repeat;
+	}
+	.main .about-company__more:nth-child(2) .sprites:hover {
+    background: url(../img/more__sprites.png) 0 -31px no-repeat;
+	}
+	.main .about-company__more:last-child .sprites {
+		width: 29px;
+    top: 0px;
+    left: -52px;
+    background: url(../img/more__sprites.png) 0 0 no-repeat;
+	}
+	.main .about-company__more:last-child .sprites:hover {
+    background: url(../img/more__sprites.png) 0 -31px no-repeat;
+	}
+	.main .about-company__more  h4 {
+		font-size: 24px;
+	}
+	.main .about-company__more p {
+		margin-top: 4px;
+		height: 142px;
+		width: 167px;
+		overflow: hidden;
+	}
+	.main .about-company__more .excerpt {
+		margin-right: 13px;
+	}
+	.main .about-company__more:first-child .excerpt {
+		margin-right: 13px;
+	}
+	.main .blog__avatar {
+		width: 310px;
+	}
+	.main .blog__avatar span {
+		left: -24px;
+    top: 16px;
+	}
+	.main .blog__avatar h5 {
+		padding-top: 27px;
+    padding-left: 39px;
+    font-size: 23px;
+	}
+	.main .blog__avatar h5 .title-link {
+		display: block;
+		margin-top: 1px;
+    margin-left: 1px;
+	}
+	.main .blog__avatar p {
+		width: 268px;
+    height: 148px;
+    margin-top: 9px;
+    margin-left: 38px;
+    font-size: 17px;
+    letter-spacing: normal;
+	}
+	.main .blog__avatar .nav {
+		margin-top: 67px;
+    margin-left: 116px;
+	}
+	.main .blog__updates {
+		float: right;
+    width: 335px;
+    margin-right: 37px;
+    margin-top: 1px;
+	}
+	.main .blog__updates h5 {
+		margin-top: 26px;
+	}
+	.main .blog__updates__post-date li p span {
+		display: none;
+	}
+	.main .blog__updates__post-date li:last-child {
+	padding-top: 22px;
+	}
+	.main .blog__updates__excerpt {
+		margin-top: 22px;
+    margin-right: 13px;
+	}
+	.main .company-links ul {
+	margin-left: 4px;
+	}
+	.main .company-links li {
+		margin-right: 52px;
+	}
+	.main .company-links li:nth-child(4) {
+		margin-left: 11px;
+	}
+	.main .company-links li:last-child {
+		margin-top: 4px;
+		margin-right: 39px;
+  	float: right;
+	}
+	.main .information-block {
+		margin-top: 128px;
+		margin-left: 2px;
+	}
+	.main .information-block__content:first-child, 
+	.main .information-block__content:nth-child(2)  {
+		display: none;
+	}
+	.main .information-block__content:nth-child(3) {
+		float: left;
+  	margin-right: 56px;
+  	overflow: hidden;
+	}	
+	.main .information-block__content:nth-child(4),
+	.main .information-block__content:nth-child(5) {
+		display: block;
+		width: 210px;
+	}
+	.main .information-block__content:nth-child(4) {
+		margin-right: 0px;
+	}
+	.main .information-block__content:nth-child(5) {
+		float: right;
+		margin-right: 27px;
+	}
+	.main .information-block__content {
+		width: 210px;
+	}
+	.main .information-block__content h6 {
+		font-size: 24px; 
+	}
+	.footer .menu {
+		margin-top: 42px;
+		margin-left: 1px;
+	}
+	.footer .menu__item-last {
+		top: 98px;
+  	right: 50px;
+  }
+}
