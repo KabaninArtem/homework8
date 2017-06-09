@@ -107,7 +107,7 @@ body {
 	margin-right: 48px;
 }
 .item-last {
-	margin-right: 0px;
+	margin-right: 0;
 }
 .menu__link {
 	color: white;
@@ -296,7 +296,7 @@ body {
   text-decoration: none;
 }
 .main .about-company__more .excerpt:hover {
-	text-shadow: 0px 0px 6px white;
+	text-shadow: 0 0 6px white;
 }
 .main .about-company__more:first-child .excerpt {
 	margin-right: 14px;
@@ -439,7 +439,7 @@ body {
 	margin-right: 41px;
 }
 .main .company-links li:nth-child(6) {
-	margin-right: 0px;
+	margin-right: 0;
 }
 .main .company-links .logos {
 	width: 70px;
