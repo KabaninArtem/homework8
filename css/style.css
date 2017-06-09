@@ -36,6 +36,9 @@ body {
 	top: 279px;
 	background-color: rgba(76, 78, 92, 0.5);
 }
+.ie8 .background__opacity-block {
+	background: url(../img/opacity.png) top center no-repeat;
+}
 .background__gradient {
 	height: 340px;
 	background: linear-gradient(to top, #33263a, #745083);
@@ -446,31 +449,39 @@ body {
 .main .company-links li:nth-child(2) .logos {
 	background: url(../img/company-logos.png) -135px 0 no-repeat;
 }
+.main .company-links li + li .logos {
+	background: url(../img/company-logos.png) -135px 0 no-repeat; /* IE8 */
+}
 .main .company-links li:nth-child(3) .logos {
 	width: 66px;
 	background: url(../img/company-logos.png) -270px 0 no-repeat;
 }
+.main .company-links li + li + li .logos {
+	width: 66px; /* IE8 */
+	background: url(../img/company-logos.png) -270px 0 no-repeat; /* IE8 */
+}
 .main .company-links li:nth-child(4) .logos {
-	 background: url(../img/company-logos.png) -402px 0 no-repeat;
+	background: url(../img/company-logos.png) -402px 0 no-repeat;
+}
+.main .company-links li + li + li + li .logos {
+	background: url(../img/company-logos.png) -402px 0 no-repeat; /* IE8 */
 }
 .main .company-links li:nth-child(5) .logos {
 	width: 102px;
 	background: url(../img/company-logos.png) -529px 0 no-repeat;
 }
+.main .company-links li + li + li + li + li .logos {
+	width: 102px; /* IE8 */
+	background: url(../img/company-logos.png) -529px 0 no-repeat; /* IE8 */
+}
 .main .company-links li:nth-child(6) .logos {
 	width: 100px;
 	background: url(../img/company-logos.png) -675px 0 no-repeat;
 }
-/*.main .company-links li:nth-child(4) {
-	margin-left: 8px;
+.main .company-links li + li + li + li +li +li .logos {
+	width: 100px; /* IE8 */
+	background: url(../img/company-logos.png) -675px 0 no-repeat; /* IE8 */
 }
-.main .company-links li:nth-child(5) {
-	vertical-align: 20px;
-  margin-left: 4px;
-}
-.main .company-links li:last-child {
-	vertical-align: 2px;
-}*/
 .main .information-block {
 	margin-top: 122px;
   height: 301px;
