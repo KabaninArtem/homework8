@@ -1,6 +1,6 @@
 @media  (max-width: 995px)  {
 	.background__opacity-block {
-		top: 245px;
+		top: 247px;
 	}
 	.background__mountain {
 		height: 800px;
@@ -18,13 +18,10 @@
 		left: 50%;
 		margin-left: -384px;
 	}
-	.header {
-		height: 732px;
-	}
 	.menu {
 		clear: both;
 		float: left;
-		margin-top: 29px;
+		margin-top: 31px;
 	}
 	.sliders {
 		margin-top: 130px;
@@ -32,9 +29,9 @@
 	.sliders__info-block {
 		width: 317px;
 		height: 190px;
-		overflow: hidden;
+    padding-top: 100px;
 		padding-left: 25px;
-    padding-top: 98px;
+		overflow: hidden;
 	}
 	.sliders__info-block h2 {
 		font-size: 48px;
@@ -55,8 +52,13 @@
 		right: 62px;
 	}
 	.nav {
-		margin-top: 41px;
+		margin-top: 43px;
 		margin-right: 159px;
+	}
+
+	/*MAIN*/
+	.main {
+		margin-top: 155px;
 	}
 	.main .about-company {
 		height: 344px;
@@ -72,12 +74,12 @@
 		margin-right: 31px;
 	}
 	.main .about-company__more .sprites {
-	.	top: 0px;
+		top: 0;
 		left: 11px;
 	}
 	.main .about-company__more:nth-child(2) .sprites {
 		width: 29px;
-    top: 0px;
+    top: 0;
     left: -52px;
     background: url(../img/more__sprites.png) 0 0 no-repeat;
 	}
@@ -86,7 +88,7 @@
 	}
 	.main .about-company__more:last-child .sprites {
 		width: 29px;
-    top: 0px;
+    top: 0;
     left: -52px;
     background: url(../img/more__sprites.png) 0 0 no-repeat;
 	}
@@ -107,6 +109,9 @@
 	}
 	.main .about-company__more:first-child .excerpt {
 		margin-right: 13px;
+	}
+	.main .blog {
+		margin-top: 102px;
 	}
 	.main .blog__avatar {
 		width: 310px;
@@ -157,10 +162,10 @@
     margin-right: 13px;
 	}
 	.main .company-links {
-		margin-top: 27px;
+		margin-top: 96px;
 	}
 	.main .company-links ul {
-	margin-left: 4px;
+		width: 700px;
 	}
 	.main .company-links li {
 		margin-right: 52px;
@@ -177,6 +182,7 @@
 	.main .information-block {
 		margin-top: 128px;
 		margin-left: 2px;
+		overflow: hidden;
 	}
 	.main .information-block__content:first-child, 
 	.main .information-block__content:nth-child(2)  {
@@ -193,7 +199,7 @@
 		width: 210px;
 	}
 	.main .information-block__content:nth-child(4) {
-		margin-right: 0px;
+		margin-right: 0;
 	}
 	.main .information-block__content:nth-child(5) {
 		float: right;
@@ -204,6 +210,11 @@
 	}
 	.main .information-block__content h6 {
 		font-size: 24px; 
+	}
+
+	/*FOOTER*/
+	.footer {
+		margin-top: 97px;
 	}
 	.footer .menu {
 		margin-top: 42px;

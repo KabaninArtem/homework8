@@ -24,13 +24,8 @@
 		left: 50%;	
 		margin-left: -160px;
 	}
-	.header {
-		height: 452px;
-	}
-	.header .title h1 {
-		margin-left: 26%; 
-	}
 	.header .menu {
+		top: 38px;
 		right: -59px;
 		background-color: rgba(59,46,67,0);
 		border: none;
@@ -56,16 +51,15 @@
 	.header .sliders__iphone-block {
 		display: none;
 	}
-	.header .nav {
-		margin-top: -14px;
-    margin-right: 111px;
+
+	/*MAIN*/
+	
+	.main {
+		margin-top: 52px;
 	}
 	.main .about-company__more {
 		margin-top: 70px;
 		width: 212px;
-	}
-	.main {
-    height: 1808px;
 	}
 	.main .about-company__more:first-child {
 		padding-left: 83px;
@@ -80,7 +74,7 @@
 		left: 30px;
 	}
 	.main .about-company__more:nth-child(2) .sprites {
-		top: 0px;
+		top: 0;
     left: -54px;
 	}
 	.main .about-company__more p {
@@ -149,34 +143,38 @@
     margin-top: 51px;
     margin-left: 58px;
 	}
+	.main .company-links ul {
+		width: 200px;
+	}
+	.main .company-links li {
+		margin-right: 0;
+	}
 	.main .company-links li:nth-child(even) {
 		float: right;
-		margin-right: 4px;
-	}
-	.main .company-links li:nth-child(odd) {
 		margin-right: 0px;
 	}
-	.main .company-links li:nth-child(3) {
-		margin-top: 58px;
-    margin-left: 8px;
+	.main .company-links li:nth-child(odd) {
+		margin-right: 0;
 	}
 	.main .company-links li:nth-child(4) {
-		margin-top: 59px;
-  	margin-right: 0px;
+  	margin-right: 7px;
 	}
 	.main .company-links li:nth-child(5) {
-	  margin-top: 40px;
-    margin-left: -20px;
+		margin-left: -15px; 
   }
   .main .company-links li:last-child {
-    margin-right: -17px;
-    margin-top: 40px;
-   }
+    margin-right: -7px;
+	}
+	/*FOOTER*/
+
+	.footer {
+		margin-top: 8px;
+	}
   .footer .menu__item {
   	display: none;
   }
   .footer .menu__item-last {
-    top: 41px;
+    top: 32px;
     right: 101px;
 	}
 }
